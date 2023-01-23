@@ -8,7 +8,7 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Gtrade />} />
+                <Route index path="/" element={<Gtrade />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
       </BrowserRouter>
