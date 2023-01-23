@@ -1,1 +1,3 @@
-# Chat-React-GPT
+# gTrade-Clone
+
+This is the gTrade-Clone .
