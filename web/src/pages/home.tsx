@@ -13,7 +13,7 @@ import { VscGraph } from 'react-icons/vsc'
 
 const Gtrade = () => {
     return (
-        <div id="gtrade-container" className="w-[100vw] bg-[#101014]">
+        <div id="gtrade-container" className="w-[100vw]">
             <Header />
             <div className="flex flex-row w-[100%] h-[75vh] justify-center items-center gap-12">
                 <img src={gtrade_phones} width={'27%'} height={'48%'} alt="Gtrade Images" className="mt-3" />

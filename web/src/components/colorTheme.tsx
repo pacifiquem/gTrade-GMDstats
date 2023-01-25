@@ -6,7 +6,7 @@ const colorTheme = () => {
     const documentRef = useRef(document);
 
     return (
-        <div className='hidden absolute h-[35vh] w-[20%] bg-[rgb(28,28,34)] flex flex-col justify-center items-center gap-3 right-8 rounded-sm'>
+        <div className='absolute h-[35vh] w-[20%] bg-[rgb(28,28,34)] flex flex-col justify-center items-center gap-3 right-8 rounded-sm'>
             <button className='h-[18%] w-[80%] bg-[hsl(240,5%,24%)] border-[1px] border-solid border-zinc-500 rounded text-[rgb(138,138,150)] text-lg font-sans font-semibold' onClick={() => {
                     documentRef.current.children[0].children[1].classList.add('bg-[rgb(200,200,200)]');
             }}>Light &nbsp;&nbsp;&nbsp;
